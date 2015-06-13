@@ -1,0 +1,161 @@
+header {
+	text-align: right;
+	font-family: Arial, sans-serif;
+	font-size: 0.8em;
+	margin: 10px;
+	margin-top: 15px;
+}
+
+header div {
+	float: right;
+	margin-top: 0px;
+}
+
+header span {
+	padding: 5px;
+	padding-right: 10px;
+	display: table-cell;
+	vertical-align: middle;
+	color: #666;
+}
+
+header span a {
+	color: #666;
+	text-decoration: none;
+}
+
+header span a:hover {
+	color: #333;
+}
+
+header span:nth-child(3) img {
+	opacity: 0.65;
+}
+
+header span:nth-child(3) img:hover {
+	opacity: 0.8;
+}
+
+header span:nth-child(4) {
+	background: #666;
+	border-radius: 100%;
+	text-align: center;
+	height: 50%;
+	padding-right: 5px;
+	transform: scale(0.5,0.5);
+}
+
+header span:nth-child(4):hover {
+	background: #333;
+}
+
+header span:nth-child(4) img {
+	width: 60%;
+	margin: 2px;
+	margin-left: 3px;
+	margin-right: 3px;
+}
+
+main {
+	width: 28%;
+	min-width: 490px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 152px;
+	clear: both;
+}
+
+main > img {
+	display: block;
+	margin: auto;
+	width: 50%;
+	margin-bottom: 25px;
+}
+
+main input {
+	width: 100%;
+	display: block;
+	font-family: Arial, sans-serif;
+	padding: 6px;
+	padding-left: 8px;
+	border-radius: 0;
+	margin: -3px;
+	margin-left: 1px;
+}
+
+main input:focus {
+	outline: none;
+	border: 1px solid #69C;
+}
+
+main div {
+	width: 280px;
+	margin: auto;
+	text-align: center;
+}
+
+main div button {
+	margin: 6px;
+	margin-top: 15px;
+	font-weight: bold;
+	font-size: 0.7em;
+	padding: 7px;
+	border-radius: 3px;
+	border: 1px solid #ddd;
+	background: #f3f3f3;
+	color: #444;
+}
+
+main div button:hover {
+	background: #f6f6f6;
+	-webkit-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.2);
+	box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.2);
+}
+
+main a img {
+	width: 2.5%;
+	z-index: 50;
+	margin-top: -20px;
+	margin-right: -10px;
+	float: right;
+	background: #fff;
+	opacity: 0.65;
+}
+
+main a img:hover {
+	opacity: 0.75;
+}
+
+footer {
+	width: 100%;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	background: #f3f3f3;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 20px;
+	border-top: 1px solid #ddd;
+}
+
+footer div a {
+	font-family: Arial, sans-serif;
+	color: #444;
+	text-decoration: none;
+	margin: 9px;
+	padding: 9px;
+	font-size: 0.8em;
+}
+
+footer div a:hover {
+	color: #222;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
