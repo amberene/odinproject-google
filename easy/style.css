@@ -14,7 +14,7 @@ header div {
 header span {
 	padding: 5px;
 	padding-right: 10px;
-	display: table-cell;
+	display: inline table-cell;
 	vertical-align: middle;
 	color: #666;
 }
