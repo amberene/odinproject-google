@@ -36,26 +36,6 @@ header span:nth-child(3) img:hover {
 	opacity: 0.8;
 }
 
-header span:nth-child(4) {
-	background: #666;
-	border-radius: 100%;
-	text-align: center;
-	height: 50%;
-	padding-right: 5px;
-	transform: scale(0.5,0.5);
-}
-
-header span:nth-child(4):hover {
-	background: #333;
-}
-
-header span:nth-child(4) img {
-	width: 60%;
-	margin: 2px;
-	margin-left: 3px;
-	margin-right: 3px;
-}
-
 main {
 	width: 28%;
 	min-width: 490px;
