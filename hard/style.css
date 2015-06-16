@@ -1,9 +1,39 @@
+body {
+	margin: 0;
+}
+
 header {
+	display: block;
 	text-align: right;
 	font-family: Arial, sans-serif;
 	font-size: 0.8em;
-	margin: 10px;
-	margin-top: 15px;
+	height: 60px;
+	background-color: #F1F1F1;
+	border-bottom: 1px solid #E5E5E5;
+}
+
+header .left {
+	margin: 15px;
+	margin-left: 0;
+}
+
+header .left img {
+	/*float: left;*/
+}
+
+.voice {
+	width: 2.5%;
+	z-index: 50;
+	margin-top: -20px;
+	margin-right: -10px;
+	float: right;
+	background: #fff;
+	opacity: 0.65;
+	display: none;
+}
+
+.voice:hover {
+	opacity: 0.75;
 }
 
 header div {
@@ -36,24 +66,20 @@ header span:nth-child(3) img:hover {
 	opacity: 0.8;
 }
 
-header span:nth-child(4) {
-	background: #666;
-	border-radius: 100%;
-	text-align: center;
-	height: 50%;
-	padding-right: 5px;
-	transform: scale(0.5,0.5);
+header input {
+	display: inline;
+	font-family: Arial, sans-serif;
+	padding: 6px;
+	padding-left: 8px;
+	border-radius: 0;
+	margin-left: 5px;
+	float: right;
+	width: 575px;
 }
 
-header span:nth-child(4):hover {
-	background: #333;
-}
-
-header span:nth-child(4) img {
-	width: 60%;
-	margin: 2px;
-	margin-left: 3px;
-	margin-right: 3px;
+header input:focus {
+	outline: none;
+	border: 1px solid #C0C0C0;
 }
 
 main {
@@ -70,22 +96,6 @@ main > img {
 	margin: auto;
 	width: 50%;
 	margin-bottom: 25px;
-}
-
-main input {
-	width: 100%;
-	display: block;
-	font-family: Arial, sans-serif;
-	padding: 6px;
-	padding-left: 8px;
-	border-radius: 0;
-	margin: -3px;
-	margin-left: 1px;
-}
-
-main input:focus {
-	outline: none;
-	border: 1px solid #69C;
 }
 
 main div {
@@ -111,20 +121,6 @@ main div button:hover {
 	-webkit-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.2);
 	-moz-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.2);
 	box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.2);
-}
-
-main a img {
-	width: 2.5%;
-	z-index: 50;
-	margin-top: -20px;
-	margin-right: -10px;
-	float: right;
-	background: #fff;
-	opacity: 0.65;
-}
-
-main a img:hover {
-	opacity: 0.75;
 }
 
 footer {
